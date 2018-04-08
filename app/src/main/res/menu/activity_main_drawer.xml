@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:title="Sign In">
+
+            <item
+                android:id="@+id/google_signin"
+                android:icon="@mipmap/gsignin"
+                android:title="Sign In"
+            />
+            <item
+                android:id="@+id/Home"
+                android:title="Home"
+                />
+            <item
+                android:id="@+id/userPosts"
+                android:title="My Posts"
+                />
+
+    </group>
+
+
+</menu>
+
+
+<!--
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import"
+            android:fontFamily="medium-content-sans-serif-font"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery"
+            android:fontFamily="medium-content-sans-serif-font"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow"
+            android:fontFamily="medium-content-sans-serif-font"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools"
+            android:fontFamily="medium-content-sans-serif-font"/>
+    </group>
+-->
